@@ -1,6 +1,9 @@
 
 def levitation_quiz
-	#your code here
+  input = nil
+  while input != "Wingardium Leviosa"
+	  puts "What is the spell that enacts levitation?"
+    input = gets.strip
+  end
+  puts "You passed the quiz!"
 end
-
-
